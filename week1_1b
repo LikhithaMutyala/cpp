@@ -1,0 +1,41 @@
+//Callby Value
+ #include<iostream>
+ using namespace std;
+ int main()
+ { 
+int a,b;
+cin>>a>>b;
+swap(a,b);
+cout<<"a="<<a<<"b="<<b;
+}
+void swap(int a,int b)
+ {
+ int temp=a;
+ a=b;
+ b=temp; 
+} 
+
+
+//Call by reference
+ #include<iostream> 
+usingnamespace std; 
+voidswap(int *a,int *b); 
+intmain() 
+{
+ int a,b; 
+cin>>a>>b; 
+swap(a,b); 
+cout<<"a="<<a<<"b="<<b; 
+}
+ voidswap(int *a,int *b) 
+{
+ int temp; 
+temp=*a; 
+*a=*b; 
+*b=temp; 
+Roll No.:
+ int 
+a,b; 
+swap(a,b); 
+<<a<<"b="<<b; 
+} 

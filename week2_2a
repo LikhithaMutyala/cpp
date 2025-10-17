@@ -1,0 +1,17 @@
+#include<iostream>
+ using namespace std;
+ int a=10;
+ int m(int a); 
+int main()
+ {
+ inta=20;
+ cout<<a+::a<<endl;
+ cout<<a<<endl;
+ m(a);
+ return0;
+ }
+ int m(int a)
+ {
+ a=30;
+ cout<<a+::a<<endl; 
+}
